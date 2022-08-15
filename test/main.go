@@ -4,7 +4,7 @@ import "diskdb"
 
 func main() {
 	db, _ := diskdb.Open("D:/db/panguDb")
-	//db.Put([]byte("pangu"),[]byte("kaitian"))
-	//db.Put([]byte("pzx"),[]byte("niubi"))
-	db.Get([]byte("pzx"))
+	//db.Put([]byte("hello"),[]byte("world"))
+	//db.Put([]byte("你好"),[]byte("世界"))
+	db.Get([]byte("hello"))
 }
